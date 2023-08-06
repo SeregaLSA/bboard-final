@@ -1,0 +1,5 @@
+h1 {
+    background: url("/public/images/img1.jpg") top left / auto 100% no-repeat,
+                url("/public/images/img1.jpg") top right / auto 100% no-repeat;
+}
+

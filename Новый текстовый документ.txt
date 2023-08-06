@@ -1,0 +1,7 @@
+<div class="navbar-brand me-auto">
+                    <h2 class="text-center"> <?php echo $data->name; ?></h2>
+                    <p class="weather__humidity">Температура: <?php echo ceil($data->main->temp_max); ?>°C, Влажность: <?php echo $data->main->humidity; ?> %,  Ветер: <?php echo $data->wind->speed; ?> км/ч</p>
+                    
+                </div>
+
+https://laravel.com/docs/10.x/views#view-composers
